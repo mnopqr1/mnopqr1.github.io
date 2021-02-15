@@ -2,19 +2,22 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
+layout: page
 ---
 
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
+
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  <p class="author">
-    <span class="date">{{ post.date | date: "%-d %B %Y"}}</span>
-  </p>
+  <!-- <p class="date" style="font-weight: lighter">
+    <span class="date">{{ post.date | date: "%-d %b %Y"}}</span>
+  </p>-->
   <div class="content">
     {{ post.content }}
   </div>
+  <br>
+
 {% endfor %}
 
 <!-- Pagination links -->
