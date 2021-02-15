@@ -13,7 +13,7 @@ A number is _prime_ if it can not be divided into smaller whole pieces. The firs
 An ancient algorithm for finding all the prime numbers is to, well, how do I put this, remove all the non-prime numbers. For example, no even number after 2 is prime, because it can be divided into 2 and something else. No multiple of 3 (other than 3 itself) can be prime either. Now 4 has already been eliminated, so apparently the next prime is 5. But no later multiple of 5 can be prime. Continuing like this, the [sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) gives you all the primes. The first source for it is in the 3rd century BC, which makes it one of the oldest algorithms in history.
 
 
-[This paper](https://www.kestrel.edu/people/meertens/publications/papers/Calculating_the_Sieve_of_Eratosthenes.pdf), gives a _very_ short functional program that performs this algorithm. In Haskell:
+[This paper](https://www.kestrel.edu/people/meertens/publications/papers/Calculating_the_Sieve_of_Eratosthenes.pdf) gives a _very_ short functional program that performs this algorithm. In Haskell:
 
 {% highlight haskell %}
 primes :: [Integer]
