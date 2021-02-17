@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Art and games"
-categories: art games projectideas brainstorm
+tags: art games projectideas brainstorm
 ---
 
 I've been collecting some ideas for projects that could be cool to try to implement and get my feet wet[^1] in web development. This is just an brainstorm-y list, in decreasing order of my excitement about it:
