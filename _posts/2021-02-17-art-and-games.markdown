@@ -14,6 +14,11 @@ I've been collecting some ideas for projects that could be cool to try to implem
 * **A math-y art project in p5js.**
     I would like to make a theorem visualization that is as pretty as [this](https://ity.cool/dh). Maybe I should begin by taking advice and "deconstruct" that work, i.e., understand how it works without looking at the source code and reproduce it myself. Could also continue with the [sieve animation](https://mnopqr1.github.io/2021/02/15/eratosthenes-animated.html) idea, try to make it prettier, experiment with changing the grid shape and the block shape.
 
+* **Automated music recognition/generation.**
+    Can I make a bot recognize who wrote a song or classical piece of music, without it ever having "heard" that particular piece before? This would be an extension of a project that was suggested by someone at RC: to classify some music as "elevator music". 
+    
+    Probably much harder but also more exciting (to me): try something with auto-generated music. Write a fugue in the style of Bach. [Sony tried something like this five years ago](http://www.flow-machines.com/history/projects/deepbach-polyphonic-music-generation-bach-chorales/). I found the results at the same time cool and not entirely satisfactory. Also I prefer pianos over organs.
+
 * **Art critic bot.**
     A bot that you can give an artwork and it writes a incomprehensible jargon-filled review. Perhaps by learning from actual reviews? This idea is inspired by an old meme I couldn't find but is similar to the [Instant Art Critique Phrase Generator](http://www.pixmaven.com/phrase_generator.html)[^2], but I haven't seen it done with the input aspect. It could also work as a movie/tv critic. Might be easier to do because there are already more (human) review aggregator sites that may have data.
 
