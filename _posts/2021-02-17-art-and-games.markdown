@@ -4,7 +4,7 @@ title:  "Art and games"
 categories: art games projectideas brainstorm
 ---
 
-I've been collecting some ideas for projects that could be cool to try to implement and get my feet wet[^1] in web development. This is just an brainstorm-y list for now in the order of excitement:
+I've been collecting some ideas for projects that could be cool to try to implement and get my feet wet[^1] in web development. This is just an brainstorm-y list, in decreasing order of my excitement about it:
 
 * **A platform game for learning kanji (Japanese characters).**
     So I've been learning kanji through a [_spaced repetition_ system](https://www.wanikani.com) that does a pretty good job of gamifying the grind, but wouldn't it be cool if the mnemonics would be visual instead of textual? 
