@@ -19,7 +19,7 @@ I've been collecting some ideas for projects that could be cool to try to implem
 
     Vaguely related inspirations for this one that are also just links I don't want to lose so I put them here: [Guardian article written by what they call a "robot"](https://www.theguardian.com/commentisfree/2020/sep/08/robot-wrote-this-article-gpt-3) and [a neural network that draws illustrations](https://openai.com/blog/dall-e/).
 
-But first I've got to eat breakfast and finish writing that compiler.
+But first I've got to eat breakfast and finish writing that compiler. 
 
 ---
 
