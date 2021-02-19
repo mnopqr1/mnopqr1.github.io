@@ -11,7 +11,7 @@ Some things I learned / struggled with during this project, in the order that th
 
 * Don't forget to write `self.` in front of any call to a function or variable that belongs to this class. `self` = `this` in Java, as far as I understand, but Python is much more rigid about having to say it all the time, whereas in Java you can omit `this` whenever no confusion can arise. I read a bit about it on Stackoverflow and I guess the reason comes down to the fact that omitting `self` can lead to weird scope problems.
 
-* My instinct is to write public getters and setters all the time, but as far as I know Python doesn't really care about visibility of instance variables, so you could just as well access them directly instead of via a getter, say. This feels a bit scary to me, especially in situations like this, which could have come up in this project, but which I deliberately avoided because it felt really icky:
+* My instinct is to write public getters and setters all the time, but as far as I know Python doesn't really care about visibility of instance variables, so you could just as well access them directly instead of via a getter, say. This feels a bit scary to me, especially in situations like this, which could have come up in this project, but which I deliberately avoided because it felt really icky:[^4]
 
 ```python
 class Tokenizer:
@@ -40,3 +40,15 @@ But now, "[moedig voorwaarts](https://www.deepl.com/translator#nl/en/moedig%20vo
 [^a]: How do you get footnotes in a title in Markdown? And can you do footnotes of footnotes? Yes, I like [David Foster Wallace](https://fs.blog/2012/04/david-foster-wallace-this-is-water/).
 
 [^2]: I know this because I tracked my time with [toggl](https://www.toggl.com). It works well and has a reasonably convenient desktop app, but I wouldn't mind switching to a free open source version instead of this freemium thing. Or maybe I should write one as my web dev project...? In any case tracking time helps me combat procrastination.
+
+[^4]: _Added 19 Feb._ By discussing this issue just now with two fellow Recursers whose "native" language for doing OO is Python, I learned that: 
+
+    a. the confusion exists just as much going the other way: if you first learn objects in Python then the way Java does objects just seems weird;
+
+    b. the example I give here is weird in at least two ways: 
+
+       * the variables in Tokenizer are class variables instead of instance variables, they should really be defined in a constructor, 
+
+       * the line `an_interesting_token = tokenizer.current_token` is just something you shouldn't do in Python, precisely because it gives weird results like in my example;
+
+    c. I could go through Exercise 40-44 of [Learn Python The Hard Way](https://learnpythonthehardway.org/python3/) to learn more.
