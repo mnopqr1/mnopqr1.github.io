@@ -29,13 +29,13 @@ Some learning highlights for me from the second half of the Nand2Tetris course:
 
     Oh, I should say, the real name for that pile is the stack. Although the French call it *la pile*. Throwing things on it is called *pushing* and taking things off of it is called *popping*.
 
-* **Compilation = translation.** When you write high level code in Python or Java (ok ok OR RUST, stop yelling at me), it is first translated into code that that talks mostly about the stack, pushes and pops, can do some iffing and elseing, maybe a function call here and there, but that is it. No objects. No while loops. No variables even! This step is itself executed by a computer program called The Compiler. It takes as input the high level code, and spits out a list of instructions in "Virtual Machine Language": [here's an example of what that looks like](https://github.com/mnopqr1/MyNand2Tetris/blob/master/JackSpaceInvaders/SpaceInvadersGame.vm). A computer's central processing unit still can't read code in the VM language: this code needs to be translated into "Assembly Language" - that's where you really get down to the level of 0's and 1's. So the order is:
+* **Compilation = translation.** When you write high level code in Jack or Java [^2], it is first translated into code that that talks mostly about the stack, pushes and pops, can do some iffing and elseing, maybe a function call here and there, but that is it. No objects. No while loops. No variables even! This step is itself executed by a computer program called The Compiler. It takes as input the high level code, and spits out a list of instructions in "Virtual Machine Language": [here's an example of what that looks like](https://github.com/mnopqr1/MyNand2Tetris/blob/master/JackSpaceInvaders/SpaceInvadersGame.vm). A computer's central processing unit still can't read code in the VM language: this code needs to be translated into "Assembly Language" - that's where you really get down to the level of 0's and 1's. So the order is:
 
     High-level language --> VM language --> Assembly language --> Central processing unit
 
     Interestingly, the Nand2Tetris course (Did I already mention that I liked this course a lot? Because I did.) teaches this entire process "in reverse": you start with constructing a CPU that can transform assembly instructions into actual electronic events, then an assembler, then a translator from VM language into assembly, and only at the very end a compiler. The compiler has a parser as a crucial component, see my previous post on this blog.
 
-    In a sense, *all* of computer science is ultimately **about** translation, at least as much as it is about math. I believe that having a good feeling for language can be just as (more?) important for becoming a good programmer as being good at math is. Unfortunately education systems in some countries tend to push their most motivated students to take math and sciences courses, while they then (completely mistakenly, in my opinion) label language courses as being "just for fun". [^2]
+    In a sense, *all* of computer science is ultimately **about** translation, at least as much as it is about math. I believe that having a good feeling for language can be just as (more?) important for becoming a good programmer as being good at math is. Unfortunately education systems in some countries tend to push their most motivated students to take math and sciences courses, while they then (completely mistakenly, in my opinion) label language courses as being "just for fun". 
 
 * **Oblong or elongated**, that is the question.
 
@@ -53,4 +53,5 @@ Some learning highlights for me from the second half of the Nand2Tetris course:
 
 [^1]: I'm biased, of course, because I [redrew them myself, pixel by pixel](https://github.com/mnopqr1/MyNand2Tetris/blob/master/JackSpaceInvaders/alienpixel.dat) and then [generated the correct Jack code](https://github.com/mnopqr1/MyNand2Tetris/blob/master/JackSpaceInvaders/generatedrawcode.py) for them because the Jack language isn't really well-equipped to deal with big-ish arrays.
 
-[^2]: I currently feel incapable of doing justice to my thoughts and translating them from vague ideas into actual readable language (so I guess this is its own form of translation trouble). Maybe later.
+
+[^2]: Okay okay OR RUST, stop yelling at me.
