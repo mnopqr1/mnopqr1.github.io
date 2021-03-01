@@ -15,7 +15,7 @@ Yes, yes, yes, I know, the graphics capabilities of the "Hack" computer platform
 
 But *aren't they cute*?[^1] 
 
-Zooming out a bit, this is what it actually looks like inside the "Virtual Machine Emulator" provided by the Nand2Tetris course for testing purposes. You can think of this as the "shell" in which your program runs. Als comparable to the program `python` when you type `python my_cool_script.py` or the program `java` when you type `java MyLovelyProgram` into a terminal. Except this virtual machine shows a lot more information about what is going on under the hood)
+Zooming out a bit, this is what it actually looks like inside the "Virtual Machine Emulator" provided by the Nand2Tetris course for testing purposes. You can think of this as the "shell" in which your program runs. Als comparable to the program `python` when you type `python my_cool_script.py` or the program `java` when you type `java MyLovelyProgram` into a terminal. Except this virtual machine shows a lot more information about what is going on under the hood.
 
 ![VM Emulator](/assets/vmemscreen.png)
 
@@ -29,7 +29,7 @@ Some learning highlights for me from the second half of the Nand2Tetris course:
 
     Oh, I should say, the real name for that pile is the stack. Although the French call it *la pile*. Throwing things on it is called *pushing* and taking things off of it is called *popping*.
 
-* **Compilation = translation.** When you write high level code in Python or Java, it is first translated into code that that talks mostly about the stack, pushes and pops, can do some iffing and elseing, maybe a function call here and there, but that is it. No objects. No while loops. No variables even! This step is itself executed by a computer program called The Compiler. It takes as input the high level code, and spits out a list of instructions in "Virtual Machine Language": [here's an example of what that looks like](https://github.com/mnopqr1/MyNand2Tetris/blob/master/JackSpaceInvaders/SpaceInvadersGame.vm). A computer's central processing unit still can't read code in the VM language: this code needs to be translated into "Assembly Language" - that's where you really get down to the level of 0's and 1's. So the order is:
+* **Compilation = translation.** When you write high level code in Python or Java (ok ok OR RUST, stop yelling at me), it is first translated into code that that talks mostly about the stack, pushes and pops, can do some iffing and elseing, maybe a function call here and there, but that is it. No objects. No while loops. No variables even! This step is itself executed by a computer program called The Compiler. It takes as input the high level code, and spits out a list of instructions in "Virtual Machine Language": [here's an example of what that looks like](https://github.com/mnopqr1/MyNand2Tetris/blob/master/JackSpaceInvaders/SpaceInvadersGame.vm). A computer's central processing unit still can't read code in the VM language: this code needs to be translated into "Assembly Language" - that's where you really get down to the level of 0's and 1's. So the order is:
 
     High-level language --> VM language --> Assembly language --> Central processing unit
 
