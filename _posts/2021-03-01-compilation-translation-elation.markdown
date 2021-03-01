@@ -15,6 +15,10 @@ Yes, yes, yes, I know, the graphics capabilities of the "Hack" computer platform
 
 But *aren't they cute*?[^1] 
 
+Zooming out a bit, this is what it actually looks like inside the "Virtual Machine Emulator" provided by the Nand2Tetris course for testing purposes. You can think of this as the "shell" in which your program runs. Als comparable to the program `python` when you type `python my_cool_script.py` or the program `java` when you type `java MyLovelyProgram` into a terminal. Except this virtual machine shows a lot more information about what is going on under the hood)
+
+![VM Emulator](/assets/vmemscreen.png)
+
 Some learning highlights for me from the second half of the Nand2Tetris course:
 
 * The **stack abstraction**, or: how a college student chooses what clothes to wear. 
