@@ -9,11 +9,11 @@ As a first step, I went through [Freecodecamp's front end development](https://w
 
 So I installed myself some Flask, got an [Heroku](https://www.heroku.com) account, and a few hours later, I had this text-based version of Tic Tac Toe that looks like it is from around the year I was born:
 
-![Tic Tac Toe in the past](assets/tictactoetext.png)
+![Tic Tac Toe in the past](/assets/tictactoetext.png)
 
 Then, applying what I learned on Freecodecamp about the front end, CSS and Bootstrap, and an hour of a lot of Googling later, it looked like this:
 
-![Tic Tac Toe a little later](assets/tictactoebootstr.png)
+![Tic Tac Toe a little later](/assets/tictactoebootstr.png)
 
 I'm not a graphic designer but at least it doesn't look like something that was made in the current millennium. It also took a bit of time to get the deployment on Heroku to work (who'd have thought that I'd need to use an application called `gunicorn` for that!), but there is now a **[live version](https://sam-tictactoe.herokuapp.com)** available. The [github repo is here](https://github.com/mnopqr1/tictactoe/). 
 
