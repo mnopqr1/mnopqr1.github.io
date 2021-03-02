@@ -15,6 +15,6 @@ Then, applying what I learned on Freecodecamp about the front end, CSS and Boots
 
 ![Tic Tac Toe a little later](/assets/tictactoebootstr.png)
 
-I'm not a graphic designer but at least it doesn't look like something that was made in the current millennium. It also took a bit of time to get the deployment on Heroku to work (who'd have thought that I'd need to use an application called `gunicorn` for that!), but there is now a **[live version](https://sam-tictactoe.herokuapp.com)** available. The [github repo is here](https://github.com/mnopqr1/tictactoe/). 
+I'm clearly not a graphic designer but at least it now looks like something that was made in the current millennium. It also took a bit of time to get the deployment on Heroku to work (who'd have thought that I'd need to use an application called `gunicorn` for that!), but there is now a **[live version](https://sam-tictactoe.herokuapp.com)** available. The [github repo is here](https://github.com/mnopqr1/tictactoe/). 
 
 It isn't multi-player yet, in other words, you can only play with someone who is physically sitting next to you, which is very 90s but not at all in line with the current state of the world. So that's next, but I think I'm ready to implement the multi-player idea directly for my own game, instead of for tic-tac-toe, which is, after all, not a super exciting game. This will probably involve learning something about how to store sessions server-side, and more React, perhaps? Stay tuned.
