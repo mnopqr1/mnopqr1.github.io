@@ -1,0 +1,57 @@
+#+TITLE: Studying Kanji
+#+AUTHOR:　漢字を勉強
+#+OPTIONS: reveal_slide_number:nil
+#+OPTIONS: toc:nil num:nil date:nil timestamp:nil
+#+REVEAL_TRANS: none
+#+REVEAL_THEME: black
+
+
+
+* My love for languages
+
+  * Both organic and constructed
+
+  * Japanese: a lockdown hobby
+    + 初心 ("Shoshin") : beginner's mind
+
+* The Japanese language 
+
+  * Concise
+
+  * Structured
+
+  * Special ("a language isolate")
+
+
+* An example sentence
+
+ **今日のパリは天気がいいですね。**
+ 
+ Kyô-no Pari-wa tenki-ga ii desu-ne.
+
+ "The weather in Paris is good today."
+
+* Written Japanese
+
+  * /Hiragana/
+    + いいです "ii desu" = is good
+  * /Katakana/
+    + パリ "Pari" = Paris
+  * /Kanji/
+    + 今日 "Kyô" = Now-day
+    + 天気 "Tenki" = Heaven-energy
+
+  
+* Typing Japanese
+
+  * Input Method Editor
+
+  * What you /say/ is what you get
+
+* How I'm learning Kanji
+  
+  * Spaced Repetition
+
+  * Gamification and ritual
+
+  * Community
