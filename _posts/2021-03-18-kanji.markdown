@@ -1,0 +1,65 @@
+---
+layout: post
+title:  "The Japanese language and my study of Kanji"
+---
+
+This is a write-up of a [non-technical talk](/kanjitalk.html) that I gave at RC yesterday.[^0]
+
+# My love for languages
+
+I love languages, both those organically evolved over many generations, and those constructed in the past century to make it possible to communicate with machines. While popular culture seems to think of the programmer as a kind of applied scientist/mathematician, I think programming as a discipline is really much closer to linguistics, language acquisition and even culture studies than many people think.[^1]
+
+# The Japanese language
+
+Studying Japanese started for me as a "lockdown hobby": I was supposed to travel to Japan for the first time in my life in 2020, but a pandemic got in the way of my travel plans, and I was able to register for a relatively affordable course offered by a local college, which has been meeting twice a week for two hours on Zoom since October. It is a good language course, taught in a rather informal style, focusing on assimilation and practice, especially speaking and listening, while reading and writing is so far mostly limited to the relatively simple _Hiragana_ script.
+
+# Three ways of writing 
+
+A month and a half ago, around the same time that my batch at RC started, I decided to take the Japanese hobby a step further and start to try to learn to read the _kanji_ script. To help you make sense of this, I'll try to explain what these different scripts are.[^2] Here's an example of a sentence in Japanese, that we'll read and translate together:
+
+今日のパリは天気がいいですね。
+
+Rendered in _romaji_ (Roman alphabet) this is pronounced as: "kyou-no Pari-ha tenki-ga ii desu-ne". This is also more or less what you need to [type into a Western-language keyboard](https://www.tofugu.com/japanese/how-to-type-in-japanese/) to make these characters appear on the screen - I find typing Japanese to be, surprisingly, one of the easiest parts of learning the language.
+
+I'll dissect the various symbols in this sentence a bit:
+
+* いいですね ("ii desu ne") are _Hiragana_ letters, the closest analogy to the letters in a Western alphabet, except that there is one symbol per syllable, instead of, as in most Western languages, one symbol per "unit of sound", or [phoneme](https://en.wikipedia.org/wiki/Phoneme).[^3] 
+
+* パリ ("Pari") are _Katakana_ letters. This is a separate script that is used for words of a non-Japanese origin. But also for [various other things](https://www.tofugu.com/japanese/learn-katakana/), including "robot speech"! How cool is that.[^4]
+
+* 今日 ("kyou") and 天気 ("tenki") are two pairs of _Kanji_ characters. These characters have their origins in China (the term "kan-ji" literally translates as "Chinese letter") and are now used throughout the Japanese language, mixed in one sentence with the Hiragana and Katakana, as in the example. 
+
+As for the meaning of each of these sentence elements[^5]:
+
+* The word いい means "good", です is a form of "to be" and ね is an interesting little suffix that doesn't have an exact equivalent in English, but is used to indicate that you're asserting some information or opinion to your audience, something between the colloquial "you know" and the archaic "I tell you" as in Shakespeare's _Love is merely a madness; and, I tell you, deserves as well a dark house and a whip as madmen do_. Although, spoiler alert, in my example sentence I'm just talking about the weather.
+
+* "Pari", as you may have guessed, means Paris.
+
+* The character 今 means "now", while 日 means "day". Now-day, that's today. The character 天 means "heaven", and 気 means "energy". Heaven-energy, that's the weather. 
+
+All in all, the sentence roughly translates as: "The weather in Paris is good today", and indicates that this is a new piece of information.
+
+# Kanji and semantic concepts
+
+When you learn kanji, you need to learn separately how to pronounce each of these characters, and they are pronounced differently according to context. In this sense, the Japanese language separates syntax and semantics more strictly than Western languages do. This also means that a person who knows kanji, for example because they know a Chinese language, can probably tell that the above sentence is about "today" and "weather", even if they do not know how to pronounce the sentence in Japanese. I find this to be the most  fascinating aspect of the writing systems that use [ideograms](https://en.wikipedia.org/wiki/Ideogram). It is as if you get a closer insight into how someone represents a language concept in their mind. By comparison, when you read the word "weather" in English, it is just a unit, there is no sense in which the concept "weather" is a combination of a "wea" and a "ther". (With "today" you could argue it is a combination of "to" and "day", although it is a rather peculiar use of "to".)
+
+Alright, time to get back to my [compiler written in C](https://www.craftinginterpreters.com/), for a different kind of language. I also still want to do a write-up of my foray into React.js and various other programming adventures of the last few weeks, but I thought this post could make for a nice intermezzo.
+
+
+
+
+
+
+---
+
+[^0]: It is also an attempt to return to a more regular blogging schedule. I started out well in the first weeks of my batch and then I got busy coding and learning stuff and did not always take the time to sit down and write about what I did. But I'll try to do some write-ups of programming adventures as well in the coming week.
+
+[^1]: I would even conjecture that this is a factor in the many gender and racial biases in computer science. I would love for the dominant popular image of a programmer to become that it is someone who loves to learn about languages, cultures and communities (as every programming language or framework has), instead of someone who likes to do hard math puzzles for fun. (Personally, I am a bit of both.)
+
+[^2]: I am a beginner at the Japanese language myself so I am mostly reporting on the little I have learned while studying it over the past half year or so. A much more reputable source, that I learned a lot from, is [Tofugu](https://www.tofugu.com).
+
+[^3]: Western languages are actually kind of the opposite, they often have multiple symbols for one sound. Think of "th", "sh", "oo" in English, or the French word "eau".
+
+[^4]: Does this mean that "[I'm sorry, Dave. I'm afraid I can't do that.](https://www.youtube.com/watch?v=ARJ8cAGm6JE)" would be rendered in Japanese as ゴメンネ　ダフ、ザンネン　デスガ、デキ　マセン。? [This answer on Quora gives it as an example in Hiragana, though.](https://www.quora.com/How-can-I-say-Sorry-but-I-cant-do-this-in-Japanese)
+
+[^5]: If you paid close attention, you noticed I omitted a few characters that occur in the sentence: の, は, and が (no, ha, and ga). These are examples of  "particles", which are an important part of the grammar, but I'll leave that for another time, or for a [lovely weird channel on YouTube where an android doll is teaching Japanese grammar](https://www.youtube.com/playlist?list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj).
