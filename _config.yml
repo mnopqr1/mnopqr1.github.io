@@ -21,7 +21,7 @@
 title: Sam's Programs
 author: Sam (mnopqr1)
 description: >- # this means to ignore newlines until "baseurl:"
-  Sam is programming at the Recurse Center, and blogging about it.
+  Sam is programming, thinking, mathing, and blogging about it.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mnopqr1.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: mnopqr1
@@ -31,7 +31,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
-paginate: 5
+paginate: 1
 paginate_path: "posts/page:num/"
 
 # Exclude from processing.
