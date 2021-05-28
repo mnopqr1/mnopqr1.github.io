@@ -31,7 +31,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
-paginate: 1
+paginate: 3
 paginate_path: "posts/page:num/"
 
 # Exclude from processing.
