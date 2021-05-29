@@ -5,7 +5,7 @@ title:  "How to use Github with two identities"
 
 I have one Github account for work stuff and one Github account for private stuff. Yes, a split identity on Github.
 
-I always struggle to set up a new repository on Github because the identities will clash somehow and a work repository ends up receiving commits made by my private account, etc. This defeats the whole purpose of 
+I always struggle to set up a new repository on Github because the identities will clash somehow and a work repository ends up receiving commits made by my private account, etc. This defeats the whole purpose of course.
 
 Here's how to do it. For the purposes of this example, imagine I have two Github accounts, one called `samwork` and one called `samprivate`. I'll describe how to set up a repository called `awesomerepository` for `samwork`. There are ten steps, from 0-9.
 
